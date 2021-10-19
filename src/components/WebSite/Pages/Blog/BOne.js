@@ -22,11 +22,11 @@ const BOne = () => {
                     </a>
                 </div>
                 <div className="pro-content">
-                    <h3 className='title'>10 foods for Healthy Heart</h3>
+                    <h3 className='title'><b>10 foods for Healthy Heart</b></h3>
 
                     <p>Eating healthy diet might help minimize the risk of heart diseases.</p>
                 </div>
-                <button id="section-btn">Read More</button>
+                <button id="section-btn" className="blogreadmore">Read More</button>
 
             </div>
 

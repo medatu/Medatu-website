@@ -21,6 +21,7 @@
   flex-direction: column;
   width: 24vw;
   height: auto;
+  background-color: #fff;
 }
 @media only screen and (max-width: 1275px) {
   .b-widget {
@@ -68,4 +69,7 @@
     display: flex;
     justify-content: center;
   }
+}
+.blogreadmore{
+  margin-right: 13rem !important;
 }
