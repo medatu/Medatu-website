@@ -1,0 +1,17 @@
+.socal{
+    background: #fff;
+    width: 32px;
+    border-radius: 57%;
+    padding: 8px;
+    height: 32px;
+}
+.socal1{
+    background: #fff;
+    /* height: 32px;
+    width: 32px; */
+    padding: 4px;
+    border-radius: 50%;
+}
+.footer{
+    background-color: "#c3def6"!important;
+}

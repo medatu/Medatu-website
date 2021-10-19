@@ -1,0 +1,26 @@
+.input-suggestionz {
+  background-color: #fff;
+  width: 24rem;
+  overflow-y: auto;
+}
+.autocomplete-dropdown-container {
+  background-color: #fff;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  margin-top: -1px;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 24rem;
+  z-index: 1000;
+  -webkit-overflow-scrolling: touch;
+}
+
+.searchbutton{
+  margin-left: -35px;
+  z-index: 1;
+  border-radius: 26px;
+  background-color: #383e95;
+  width: 98px;
+  color: #ffff;
+}

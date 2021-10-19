@@ -1,0 +1,8 @@
+@media screen and (max-width: 800px) {
+  .s-items {
+    width: fit-content;
+  }
+  .section-header {
+    padding-top: 6rem;
+  }
+}
