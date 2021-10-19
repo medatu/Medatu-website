@@ -21,6 +21,7 @@
   flex-direction: column;
   width: 24vw;
   height: auto;
+  background-color: #fff;
 }
 .titleDiv {
   display: flex;
@@ -84,4 +85,7 @@
     display: flex;
     justify-content: center;
   }
+}
+.blogreadmore{
+  margin-right: 13rem !important;
 }

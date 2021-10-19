@@ -182,6 +182,66 @@ strong {
   margin-bottom: 45px;
 }
 @media (max-width: 767px) {
+  html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    background: #fff;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    font-family: "Poppins", Helvetica, sans-serif;
+    color: #555;
+  }
+  
+  main {
+    background: #fafafa;
+    position: relative;
+    z-index: 1;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #333;
+  }
+  
+  p {
+    margin-bottom: 30px;
+  }
+  
+  hr.double {
+    margin: 15px 0 30px 0;
+    border-color: #ededed;
+    border-width: 2px;
+  }
+  
+  ul,
+  ol {
+    list-style: none;
+    margin: 0 0 25px 0;
+    padding: 0;
+  }
+  
+  p {
+    margin-bottom: 25px;
+  }
+  
+  p.lead {
+    font-weight: 300;
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+  
+  strong {
+    font-weight: 600;
+  }
+  
   .main_title {
     /* For less than 767px */
     margin-bottom: 15px;

@@ -58,4 +58,23 @@
   width: 80%;
   margin-left: 30rem;
   margin-top: -148px;
+  width: 80%;
+  margin-left: 30rem;
+  margin-top: -148px;
+}
+.leftbtn {
+  width: 28px;
+  height: 51px;
+  background-color: #fff;
+  margin: 10px;
+}
+.doctorscol {
+  color: blue;
+  margin: 45px;
+  background-color: #fff;
+  padding: 19px;
+}
+.arrowicon {
+  margin-top: -28px;
+  margin-left: 25rem;
 }

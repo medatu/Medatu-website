@@ -21,10 +21,10 @@ const BTwo = () => {
                 </a>
             </div>
             <div className="pro-content">
-                <h3 className="title">10 Common COVID-19 Myths You Shouldn’t believe</h3>
+                <h3 className="title"><b>10 Common COVID-19 Myths You Shouldn’t believe</b></h3>
                 <p>It is time to separate fact from fiction.</p>
             </div>
-            <button id="section-btn">Read More</button>
+            <button id="section-btn" className="blogreadmore">Read More</button>
         </div>	
     </div>
      );

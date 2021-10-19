@@ -10,6 +10,9 @@ import Space from '../DynamicComponents/Space/Space';
 import DocHome from '../Doctors/Doctors/DocHome';
 import './FormDesign.css'
 import banner from '../../../assets/img/banner-img.png';
+import { Card, Row, Col } from 'react-bootstrap'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
 const Home = () => {
 
     useEffect(() => {
@@ -58,6 +61,141 @@ const Home = () => {
                 </Container>
 
 
+                <div className="section-header text-center">
+                    <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>
+                </div>
+
+                <DocHome />
+
+                <Container>
+
+
+                </Container>
+                <article id='f-box' className='text-center'>
+                    <h3 style={{ paddingTop: '2rem' }}>Find Doctors and dentist by city</h3>
+
+                </article>
+                <div>
+                    <Row>
+                        <Col className="doctorscol">Bangalore, Karnataka
+                            <p className="arrowicon"> &darr;</p>
+                        </Col>
+                        <Col className="doctorscol">Bangalore, Karnataka
+                            <p className="arrowicon"> &darr;</p>
+                        </Col>
+                        <Col className="doctorscol">Bangalore, Karnataka
+                            <p className="arrowicon"> &darr;</p>
+                        </Col>
+                        <Col className="doctorscol">Bangalore, Karnataka
+                            <p className="arrowicon"> &darr;</p>
+                        </Col>
+                        <Col className="doctorscol">Bangalore, Karnataka
+                            <p className="arrowicon"> &darr;</p>
+                        </Col>
+                        <Col className="doctorscol">Bangalore, Karnataka
+                            <p className="arrowicon"> &darr;</p>
+                        </Col>
+                    </Row>
+                </div>
+
+
+
+                <Container>
+                    <article id='f-box' className='text-center'>
+                        <h3 style={{ paddingTop: '2rem' }}>What People Say about Us</h3>
+
+                        {/* <hr className="underline"/>
+    <hr style={{align:"center",width:"50%"}} />
+   
+    <FeedBack/> */}
+                    </article>
+                    <div style={{ marginLeft: "53rem" }}>
+                        <button className="leftbtn">&lt;</button>
+                        <button className="leftbtn">&gt;</button>
+                    </div>
+                    <div className="row">
+                        <Card style={{ width: '18rem', margin: 20 }}>
+                            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                            <Card.Body>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <p style={{ color: "blue" }}>More</p>
+                                <hr />
+                                <div>
+                                    <div className="rating" style={{ marginLeft: "130px" }}>
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStarHalfAlt} />&nbsp;&nbsp;
+                                        <span className="d-inline-block average-rating">3.5</span>
+                                    </div>
+                                    <p style={{ marginTop: -37 }}>Roman Rock</p>
+
+                                    <p>CEO.Google</p>
+                                </div>
+
+                            </Card.Body>
+                        </Card>
+                        <Card style={{ width: '18rem', margin: 20 }}>
+                            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                            <Card.Body>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <p style={{ color: "blue" }}>More</p>
+                                <hr />
+                                <div>
+                                    <div className="rating" style={{ marginLeft: "130px" }}>
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStarHalfAlt} />&nbsp;&nbsp;
+                                        <span className="d-inline-block average-rating">3.5</span>
+                                    </div>
+                                    <p style={{ marginTop: -37 }}>Roman Rock</p>
+
+                                    <p>CEO.Google</p>
+                                </div>
+
+                            </Card.Body>
+                        </Card>
+
+                        <Card style={{ width: '18rem', margin: 20 }}>
+                            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                            <Card.Body>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <p style={{ color: "blue" }}>More</p>
+                                <hr />
+                                <div>
+                                    <div className="rating" style={{ marginLeft: "130px" }}>
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStarHalfAlt} />&nbsp;&nbsp;
+                                        <span className="d-inline-block average-rating">3.5</span>
+                                    </div>
+                                    <p style={{ marginTop: -37 }}>Roman Rock</p>
+
+                                    <p>CEO.Google</p>
+                                </div>
+
+                            </Card.Body>
+                        </Card>
+
+                        <p style={{ marginLeft: "55rem", color: "blue" }}>View All -&gt; </p>
+                    </div>
+
+
+                </Container>
                 <Blog />
             </main>
         </>
