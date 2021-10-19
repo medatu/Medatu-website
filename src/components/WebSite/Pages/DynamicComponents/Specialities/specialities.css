@@ -6,3 +6,19 @@
     padding-top: 6rem;
   }
 }
+.titleDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+}
+.underLineDiv {
+  background: #373b79;
+  height: 10px;
+  width: 60px;
+  border-radius: 10px;
+  margin-top: 10px;
+}

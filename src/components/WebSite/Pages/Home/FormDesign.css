@@ -13,6 +13,22 @@
   transition: all 200ms ease;
   width: 24rem;
 }
+.titleDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 500;
+}
+.underLineDiv {
+  background: #373b79;
+  height: 10px;
+  width: 60px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
 .form-design {
   display: flex;
 }
@@ -31,16 +47,15 @@
   transition: all 200ms ease;
   width: 24rem;
 }
-.underline{
+.underline {
   height: 8px !important;
   border-radius: 40px;
   width: 67px;
   color: #5a5d8f;
-  
 }
-.banner{
+.banner {
   height: 260px;
-    width: 80%;
-    margin-left: 30rem;
-    margin-top: -148px;
+  width: 80%;
+  margin-left: 30rem;
+  margin-top: -148px;
 }

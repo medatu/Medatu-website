@@ -4,11 +4,18 @@ import BTwo from './BTwo';
 import './Blog.css'
 
 function Blog() {
-  return (
-    <section className="section section-doctor">
-<div className="container">
-<div className="row">
-    {/* <div className="col-lg-4">
+    return (
+        <section className="section section-doctor">
+            <div className="titleDiv">
+
+                <div>Informatin of your health and Wellness</div>
+                <div className="underLineDiv"></div>
+
+            </div>
+
+            <div className="container">
+                <div className="row">
+                    {/* <div className="col-lg-4">
         <div className="b-header">
             <h2>Information for your health and wellness</h2>
         </div>
@@ -17,18 +24,18 @@ function Blog() {
             <a className='r-more' href={() => false}>Read More</a>
         </div>
     </div> */}
-    <div className="col-lg-8">
-        <div className="row">
-            <div className="s-blog">
-                <BOne/>
-                <BTwo/>
+                    <div className="col-lg-8">
+                        <div className="row">
+                            <div className="s-blog">
+                                <BOne />
+                                <BTwo />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</div>
-</div>
-</section>
-  )
+        </section>
+    )
 }
 
 export default Blog;
