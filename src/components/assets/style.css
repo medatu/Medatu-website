@@ -805,7 +805,7 @@ button.bg-danger:hover {
   padding: 1.5rem !important;
   margin: 0.5rem;
   border-radius: 0.5rem;
-  background-color: rgb(55, 59, 122, 0.05);
+  /* background-color: rgb(55, 59, 122, 0.05); */
 }
 .doc-content {
   padding: 4rem 0 2rem;
