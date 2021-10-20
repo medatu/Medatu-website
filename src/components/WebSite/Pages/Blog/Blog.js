@@ -92,7 +92,7 @@ function Blog() {
                                         </div>
                                         <div className="pro-content">
                                             <h3 className="title"><b>What is Sitting Disease?</b></h3>
-                                            <p>Time to get active! </p>
+                                            <p>Time to get active!  </p><br/>
                                         </div>
                                         <button id="section-btn">Read More</button>
                                     </div>
