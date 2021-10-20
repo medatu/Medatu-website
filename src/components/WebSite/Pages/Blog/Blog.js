@@ -52,7 +52,7 @@ function Blog() {
                                             <p>Eating healthy diet might help minimize the risk of heart diseases.</p>
                                         </div>
                                         <Link as={Link} to="/blog2">
-                                        <button id="section-btn" className="blogreadmore">Read More</button>
+                                        <button id="section-btn" >Read More</button>
                                         </Link>
                                     </div>
 
@@ -74,7 +74,7 @@ function Blog() {
                                             <h3 className="title"><b>10 Common COVID-19 Myths You Shouldn’t believe</b></h3>
                                             <p>It is time to separate fact from fiction.</p>
                                         </div>
-                                        <button id="section-btn" className="blogreadmore">Read More</button>
+                                        <button id="section-btn" >Read More</button>
                                     </div>
                                 </div>
 
@@ -91,10 +91,10 @@ function Blog() {
                                             </a>
                                         </div>
                                         <div className="pro-content">
-                                            <h3 className="title"><b>What is Sitting Disease?Time to get active!</b></h3>
-                                            <p>The term "sitting disease" refers to a group of </p>
+                                            <h3 className="title"><b>What is Sitting Disease?</b></h3>
+                                            <p>Time to get active! </p>
                                         </div>
-                                        <button id="section-btn" className="blogreadmore">Read More</button>
+                                        <button id="section-btn">Read More</button>
                                     </div>
                                 </div>
                                 

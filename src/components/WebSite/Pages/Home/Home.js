@@ -13,6 +13,10 @@ import banner from '../../../assets/img/banner-img.png';
 import { Card, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalfAlt } from '@fortawesome/free-solid-svg-icons';
+import downarrow from '../../../assets/img/downarrow.png'
+import leftarrow from '../../../assets/img/leftarrow.png'
+import rightarrow from '../../../assets/img/rightarrow.png'
+
 const Home = () => {
 
     useEffect(() => {
@@ -61,28 +65,37 @@ const Home = () => {
                 </Container>
 
                 <div className="section-header text-center titleDiv">
-                    <div>Find Doctors and dentist by city</div>
+                    <div>Find Doctors by city</div>
                     <div className="underLineDiv"></div>
                 </div>
                 <div>
                     <Row>
-                        <Col className="doctorscol">Bangalore, Karnataka
-                            <p className="arrowicon"> &darr;</p>
+                        <Col className="doctorscol">Bangalore
+                            <p className="arrowicon"> <img  src={downarrow}/></p>
                         </Col>
-                        <Col className="doctorscol">Bangalore, Karnataka
-                            <p className="arrowicon"> &darr;</p>
+                        <Col className="doctorscol">Delhi
+                            <p className="arrowicon"> <img  src={downarrow}/></p>
                         </Col>
-                        <Col className="doctorscol">Bangalore, Karnataka
-                            <p className="arrowicon"> &darr;</p>
+                        <Col className="doctorscol">Mumbai
+                            <p className="arrowicon"> <img  src={downarrow}/></p>
                         </Col>
-                        <Col className="doctorscol">Bangalore, Karnataka
-                            <p className="arrowicon"> &darr;</p>
+                        <Col className="doctorscol">Chennai
+                            <p className="arrowicon"> <img  src={downarrow}/></p>
                         </Col>
-                        <Col className="doctorscol">Bangalore, Karnataka
-                            <p className="arrowicon"> &darr;</p>
+                        <Col className="doctorscol">Hyderabad
+                            <p className="arrowicon"> <img  src={downarrow}/></p>
                         </Col>
-                        <Col className="doctorscol">Bangalore, Karnataka
-                            <p className="arrowicon"> &darr;</p>
+                        <Col className="doctorscol">Kolkata 
+                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                        </Col>
+                        <Col className="doctorscol">Ahmedabad
+                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                        </Col>
+                        <Col className="doctorscol">Pune 
+                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                        </Col>
+                        <Col className="doctorscol">Gujrat
+                            <p className="arrowicon"> <img  src={downarrow}/></p>
                         </Col>
                     </Row>
                 </div>
@@ -99,9 +112,9 @@ const Home = () => {
                         <div>What People Say about Us</div>
                         <div className="underLineDiv"></div>
                     </div>
-                    <div style={{ marginLeft: "53rem" }}>
-                        <button className="leftbtn">&lt;</button>
-                        <button className="leftbtn">&gt;</button>
+                    <div style={{ marginLeft: "72rem" }}>
+                        <button className="leftbtn"><img src={rightarrow} style={{height:25}}/></button>
+                        <button className="leftbtn"><img src={leftarrow} style={{height:25}}/></button>
                     </div>
                     <div className="row">
                         <Card style={{ width: '18rem', margin: 20 }}>
@@ -180,7 +193,31 @@ const Home = () => {
 
                             </Card.Body>
                         </Card>
+                        <Card style={{ width: '18rem', margin: 20 }}>
+                            {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
+                            <Card.Body>
+                                <Card.Text>
+                                    Some quick example text to build on the card title and make up the bulk of
+                                    the card's content.
+                                </Card.Text>
+                                <p style={{ color: "blue" }}>More</p>
+                                <hr />
+                                <div>
+                                    <div className="rating" style={{ marginLeft: "130px" }}>
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStar} />
+                                        <FontAwesomeIcon id="pro-rate" icon={faStarHalfAlt} />&nbsp;&nbsp;
+                                        <span className="d-inline-block average-rating">3.5</span>
+                                    </div>
+                                    <p style={{ marginTop: -37 }}>Roman Rock</p>
 
+                                    <p>CEO.Google</p>
+                                </div>
+
+                            </Card.Body>
+                        </Card>
                         <p style={{ marginLeft: "55rem", color: "blue" }}>View All -&gt; </p>
                     </div>
 
