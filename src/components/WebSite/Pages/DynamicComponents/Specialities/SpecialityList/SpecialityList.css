@@ -1,9 +1,9 @@
 .l-a {
   width: fit-content;
-  color: #8176c4;
+  color: #fff;
 }
 .l-a:hover {
-  color: darkgreen !important;
+  color: rgb(141, 178, 235) !important;
 }
 .pro-content {
   text-align: center;
@@ -11,4 +11,26 @@
 .profile-img img {
   width: 64px;
   height: 64px;
+}
+.searchbutton{
+  margin-left: -35px;
+  z-index: 1;
+  border-radius: 26px;
+  background-color: #383e95;
+  width: 98px;
+  color: #ffff;
+}
+.colordiv{
+  background-color: #17127be0;
+  color: #fff;
+    width: 21.2rem;
+    margin-left: -16px;
+    height: 43px;
+    margin-bottom: -17px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.l-a {
+  margin-left: 86px;
+    padding: 6px;
 }

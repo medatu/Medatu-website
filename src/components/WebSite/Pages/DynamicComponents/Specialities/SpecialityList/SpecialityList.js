@@ -3,7 +3,7 @@ import { Breadcrumb } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './SpecialityList.css'
 import { SpecialityDataTwo } from './Data/SpecialityDataTwo';
-
+import search from "../../../../../assets/img/search.png"
 const checker = [
   {
     id:1,
@@ -52,59 +52,25 @@ const SpecialityList = () => {
     <div className="content">
       <div className="container-fluid">
 
-        <div className="row sidebar">
+        <div className="row sidebar" style={{width:"88rem"}}>
           <div className="col-md-5 col-lg-3 col-xl-3 theiaStickySidebar">
             
-            <div className="card search-filter">
-              <div className="card-header">
-                <h4 className="card-title mb-0">Filter</h4>
-              </div>
-              <div className="card-body">
             
-              <div className="filter-widget">
-                <h4>Categories</h4>
-                <div>
-                {checker.map((item, index) => {
-                  return(
-                  <label className="custom_check" key={item.id}>
-                    <input type="checkbox" name="gender_type" / >
-                    <span className="checkmark"></span>{item.text}
-                  </label>
-                  )
-                })}     
-                </div>
-             
-                <div className="btn-search">
-                  <button type="button" className="btn btn-block">Search</button>
-                </div>	
-              </div>
-            </div>
-            </div>
           </div>
           
           <div className="col-md-7 col-lg-9 col-xl-9">
 
             <div className="row align-items-center pb-3">	
               <div className="col-md-4 col-12 d-md-block d-none custom-short-by">
-                <h3 className="title pharmacy-title">Medlife Medical</h3>
-                <p className="doc-location mb-2 text-ellipse pharmacy-location"><i className="fas fa-map-marker-alt mr-1"></i> 96 Red Hawk Road Cyrus, MN 56323 </p>
-                <span className="sort-title">Showing 6 of 98 products</span>
+               
+
+{/* search location */}
+
+<h1>Search</h1>
+
               </div>
 
-              <div className="col-md-8 col-12 d-md-block d-none custom-short-by">
-                <div className="sort-by pb-3">
-                  <span className="sort-title">Sort by</span>
-                  <span className="sortby-fliter">
-                    <select className="select">
-                      <option>Select</option>
-                      <option className="sorting">Rating</option>
-                      <option className="sorting">Popular</option>
-                      <option className="sorting">Latest</option>
-                      <option className="sorting">Free</option>
-                    </select>
-                  </span>
-                </div>
-              </div>
+              
             </div>
 
 <article id='view-btn'>
@@ -125,9 +91,9 @@ const SpecialityList = () => {
                   </div>
                   <div className="pro-content">
                     <h3 className="title">
-                      <a href="#/" tabIndex="-1" className='text-center'>{item.text}</a> 
+                     <b> <a href="#/" tabIndex="-1" className='text-center'>{item.text}</a> </b>
                     </h3>
-                    <div className="align-items-center">
+                    <div className="align-items-center colordiv" >
                     <Link to='/s-list'>
                       <p className='l-a text-center'>Search Doctors</p>
                     </Link>
