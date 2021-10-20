@@ -109,7 +109,7 @@ function Navbar() {
      </nav>
    
   <Switch>
-    {/* <Route path='/doctors'><DocA/></Route>
+    <Route path='/doctors'><DocA/></Route>
     <Route path="/home-care"><HomeCare/></Route>
     <Route path='/faq'><FAQPage/></Route>
     <Route path='/pop-test'><PopTests/></Route>
@@ -127,7 +127,7 @@ function Navbar() {
     <Route path="/diagnostics"><Diagnostics /></Route>
     <Route path="/payment"><Payment/></Route>
     <Route path="/success"><PaymentSuccess/></Route>
-    <Route path="/about"><AboutUs/></Route> */}
+    <Route path="/about"><AboutUs/></Route>
 
     
     {/* <Route path="/blog"><Blog1 /></Route>
