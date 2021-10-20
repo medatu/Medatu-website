@@ -128,6 +128,10 @@ function Navbar() {
     <Route path="/payment"><Payment/></Route>
     <Route path="/success"><PaymentSuccess/></Route>
     <Route path="/about"><AboutUs/></Route> */}
+
+    
+    {/* <Route path="/blog"><Blog1 /></Route>
+    <Route path="/blog2"><Blog2 /></Route> */}
     <Route path="/"><Home /></Route>
 </Switch>
 <RFooter/>

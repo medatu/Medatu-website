@@ -11,7 +11,8 @@ import sTen from "../../../../assets/img/clinic/little-girl-checking-up-her-sigh
 import sThirteen from "../../../../assets/img/specialities/specialities-13.png";
 import sFouteen from "../../../../assets/img/clinic/young-male-psysician-with-patient-hospital_1303-17884.png";
 import { Container } from "react-bootstrap";
-
+import leftarrow from '../../../../assets/img/leftarrow.png'
+import rightarrow from '../../../../assets/img/rightarrow.png'
 export default class Specialitites extends Component {
   render() {
     var settings = {
@@ -53,6 +54,11 @@ export default class Specialitites extends Component {
 
         <div className="section-header text-center titleDiv">
           <div>Clinics and Specialities</div>
+
+          <div style={{ marginLeft: "72rem" }}>
+                        <button className="leftbtn"><img src={rightarrow} style={{height:25}}/></button>
+                        <button className="leftbtn"><img src={leftarrow} style={{height:25}}/></button>
+                    </div>
           <div className="underLineDiv"></div>
         </div>
         <Slider {...settings}>

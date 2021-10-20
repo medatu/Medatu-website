@@ -32,7 +32,7 @@ const Footer = () => {
                                 </h5>
                                 <h5>
                                     <FontAwesomeIcon className="socal1" icon={faEnvelope} />&nbsp;
-                                    care@medatu.co
+                                    care@medatu.com
                                 </h5>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ const Footer = () => {
                     </div>
                     <div className="col-lg-2 col-md-6">
                     <div className="footer-widget footer-menu">
-                        <h2 className="footer-title">For Professionals</h2>
+                        <h2 className="footer-title">For Businesses</h2>
                         <ul>
                                 <li><Link to="/search">Doctor’s Profile</Link>
                             </li>
