@@ -1,6 +1,5 @@
 {
   "files": {
-<<<<<<< HEAD
     "main.css": "/Medatu-website/static/css/main.39a07166.chunk.css",
     "main.js": "/Medatu-website/static/js/main.ac7927cb.chunk.js",
     "main.js.map": "/Medatu-website/static/js/main.ac7927cb.chunk.js.map",
@@ -15,22 +14,6 @@
     "static/css/2.a4221eee.chunk.css.map": "/Medatu-website/static/css/2.a4221eee.chunk.css.map",
     "static/css/main.39a07166.chunk.css.map": "/Medatu-website/static/css/main.39a07166.chunk.css.map",
     "static/js/2.d57309d2.chunk.js.LICENSE.txt": "/Medatu-website/static/js/2.d57309d2.chunk.js.LICENSE.txt",
-=======
-    "main.css": "/Medatu-website/static/css/main.7baaf298.chunk.css",
-    "main.js": "/Medatu-website/static/js/main.c75663cc.chunk.js",
-    "main.js.map": "/Medatu-website/static/js/main.c75663cc.chunk.js.map",
-    "runtime-main.js": "/Medatu-website/static/js/runtime-main.2a871baa.js",
-    "runtime-main.js.map": "/Medatu-website/static/js/runtime-main.2a871baa.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/Medatu-website/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.ac02797c.chunk.js": "/Medatu-website/static/js/2.ac02797c.chunk.js",
-    "static/js/2.ac02797c.chunk.js.map": "/Medatu-website/static/js/2.ac02797c.chunk.js.map",
-    "static/js/3.dd14abf4.chunk.js": "/Medatu-website/static/js/3.dd14abf4.chunk.js",
-    "static/js/3.dd14abf4.chunk.js.map": "/Medatu-website/static/js/3.dd14abf4.chunk.js.map",
-    "index.html": "/Medatu-website/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/Medatu-website/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.7baaf298.chunk.css.map": "/Medatu-website/static/css/main.7baaf298.chunk.css.map",
-    "static/js/2.ac02797c.chunk.js.LICENSE.txt": "/Medatu-website/static/js/2.ac02797c.chunk.js.LICENSE.txt",
->>>>>>> cc249301c6a275222f6ec3a08029d3157e326fc6
     "static/media/01.3ffa3828.jpg": "/Medatu-website/static/media/01.3ffa3828.jpg",
     "static/media/01.6fb98467.png": "/Medatu-website/static/media/01.6fb98467.png",
     "static/media/01.f18d057e.png": "/Medatu-website/static/media/01.f18d057e.png",
@@ -51,7 +34,6 @@
     "static/media/07.427400d5.png": "/Medatu-website/static/media/07.427400d5.png",
     "static/media/08.fac3e7fb.png": "/Medatu-website/static/media/08.fac3e7fb.png",
     "static/media/09.9fde1d09.png": "/Medatu-website/static/media/09.9fde1d09.png",
-<<<<<<< HEAD
     "static/media/1.35189df1.jpg": "/Medatu-website/static/media/1.35189df1.jpg",
     "static/media/1.49166fc0.svg": "/Medatu-website/static/media/1.49166fc0.svg",
     "static/media/1.5ee949e1.svg": "/Medatu-website/static/media/1.5ee949e1.svg",
@@ -69,25 +51,6 @@
     "static/media/3.c15e2333.svg": "/Medatu-website/static/media/3.c15e2333.svg",
     "static/media/4.d081b205.png": "/Medatu-website/static/media/4.d081b205.png",
     "static/media/style.css": "/Medatu-website/static/media/tick-icon.6da4654e.svg",
-=======
-    "static/media/1.212af075.svg": "/Medatu-website/static/media/1.212af075.svg",
-    "static/media/1.35189df1.jpg": "/Medatu-website/static/media/1.35189df1.jpg",
-    "static/media/1.513b8f4f.svg": "/Medatu-website/static/media/1.513b8f4f.svg",
-    "static/media/1.70920831.png": "/Medatu-website/static/media/1.70920831.png",
-    "static/media/1.afc92abf.png": "/Medatu-website/static/media/1.afc92abf.png",
-    "static/media/2.036f25fe.png": "/Medatu-website/static/media/2.036f25fe.png",
-    "static/media/2.401bfc8a.svg": "/Medatu-website/static/media/2.401bfc8a.svg",
-    "static/media/2.dad25886.jpg": "/Medatu-website/static/media/2.dad25886.jpg",
-    "static/media/2.e5aa8dac.png": "/Medatu-website/static/media/2.e5aa8dac.png",
-    "static/media/2.fe2ec1ea.svg": "/Medatu-website/static/media/2.fe2ec1ea.svg",
-    "static/media/3.256b5ad9.svg": "/Medatu-website/static/media/3.256b5ad9.svg",
-    "static/media/3.54a4a576.png": "/Medatu-website/static/media/3.54a4a576.png",
-    "static/media/3.857f4fc3.svg": "/Medatu-website/static/media/3.857f4fc3.svg",
-    "static/media/3.aa40bceb.png": "/Medatu-website/static/media/3.aa40bceb.png",
-    "static/media/3.bbb50ae0.jpg": "/Medatu-website/static/media/3.bbb50ae0.jpg",
-    "static/media/4.d081b205.png": "/Medatu-website/static/media/4.d081b205.png",
-    "static/media/style.css": "/Medatu-website/static/media/tick-icon.986dc80e.svg",
->>>>>>> cc249301c6a275222f6ec3a08029d3157e326fc6
     "static/media/appstore.292c3537.png": "/Medatu-website/static/media/appstore.292c3537.png",
     "static/media/banner-img.3be5c3f0.png": "/Medatu-website/static/media/banner-img.3be5c3f0.png",
     "static/media/ForWoman.css": "/Medatu-website/static/media/banner.6e9e8a77.jpg",
@@ -125,16 +88,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2a871baa.js",
-<<<<<<< HEAD
     "static/css/2.a4221eee.chunk.css",
     "static/js/2.d57309d2.chunk.js",
     "static/css/main.39a07166.chunk.css",
     "static/js/main.ac7927cb.chunk.js"
-=======
-    "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.ac02797c.chunk.js",
-    "static/css/main.7baaf298.chunk.css",
-    "static/js/main.c75663cc.chunk.js"
->>>>>>> cc249301c6a275222f6ec3a08029d3157e326fc6
   ]
 }
