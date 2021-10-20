@@ -76,7 +76,7 @@ export default class Specialitites extends Component {
 
 
               </div>
-              <div>
+              <div style={{ marginTop: "18px" }}>
                 General Physician
               </div>
             </div>
@@ -105,7 +105,7 @@ export default class Specialitites extends Component {
 
 
               </div>
-              <div>
+              <div style={{ marginTop: "18px" }}>
                 Pediatrician
               </div>
             </div>
@@ -134,7 +134,7 @@ export default class Specialitites extends Component {
 
 
               </div>
-              <div>
+              <div style={{ marginTop: "18px" }}>
                 Dentist
               </div>
             </div>
@@ -162,7 +162,7 @@ export default class Specialitites extends Component {
 
 
               </div>
-              <div>
+              <div style={{ marginTop: "18px" }}>
                 Orthopaedics
               </div>
             </div>
@@ -190,7 +190,7 @@ export default class Specialitites extends Component {
 
 
               </div>
-              <div>
+              <div style={{ marginTop: "18px" }}>
                 Ophthalmology
               </div>
             </div>
@@ -218,7 +218,7 @@ export default class Specialitites extends Component {
 
 
               </div>
-              <div>
+              <div style={{ marginTop: "18px" }}>
                 ENT Doctor
               </div>
             </div>

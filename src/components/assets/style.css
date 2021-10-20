@@ -1397,6 +1397,7 @@ button.bg-danger:hover {
 }
 .slick-initialized .slick-slide {
   display: block;
+  margin-left: 10px;
 }
 .slick-loading .slick-slide {
   visibility: hidden;

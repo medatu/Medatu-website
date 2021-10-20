@@ -50,19 +50,19 @@ const Home = () => {
                 <DocHome />
                 <Container>
                     <article id='f-box' className='text-center' style={{ display: "none" }}>
-                        <h3 style={{ paddingTop: '2rem' }}>What People Say about Us</h3>
 
-                        <hr className="underline" />
-                        <hr style={{ align: "center", width: "50%" }} />
-
+                        <div className="section-header text-center titleDiv">
+                            <div>What People Say about Us</div>
+                            <div className="underLineDiv"></div>
+                        </div>
                         {/* <hr style={{width:"50%",size:10,align:"center"}}/> */}
                         <FeedBack />
                     </article>
                 </Container>
 
-
-                <div className="section-header text-center">
-                    <p className="section-p text-center">Top Health Care Professionals to Solve Your Health Issues.</p>
+                <div className="section-header text-center titleDiv">
+                    <div>Top Health Care Professionals to Solve Your Health Issues.</div>
+                    <div className="underLineDiv"></div>
                 </div>
 
                 <DocHome />
@@ -71,10 +71,14 @@ const Home = () => {
 
 
                 </Container>
-                <article id='f-box' className='text-center'>
+                {/* <article id='f-box' className='text-center'>
                     <h3 style={{ paddingTop: '2rem' }}>Find Doctors and dentist by city</h3>
 
-                </article>
+                </article> */}
+                <div className="section-header text-center titleDiv">
+                    <div>Find Doctors and dentist by city</div>
+                    <div className="underLineDiv"></div>
+                </div>
                 <div>
                     <Row>
                         <Col className="doctorscol">Bangalore, Karnataka
@@ -101,14 +105,15 @@ const Home = () => {
 
 
                 <Container>
-                    <article id='f-box' className='text-center'>
+                    {/* <article id='f-box' className='text-center'>
                         <h3 style={{ paddingTop: '2rem' }}>What People Say about Us</h3>
 
-                        {/* <hr className="underline"/>
-    <hr style={{align:"center",width:"50%"}} />
-   
-    <FeedBack/> */}
-                    </article>
+      
+                    </article> */}
+                    <div className="section-header text-center titleDiv">
+                        <div>What People Say about Us</div>
+                        <div className="underLineDiv"></div>
+                    </div>
                     <div style={{ marginLeft: "53rem" }}>
                         <button className="leftbtn">&lt;</button>
                         <button className="leftbtn">&gt;</button>
