@@ -28,19 +28,32 @@ const Home = () => {
             <main className="main-wrapper">
                 <Space />
                 <section className="banner-home">
-                    <article className="banner-design">
+                    {/* <article className="banner-design">
                         <div className="banner-header">
                             <h1>Book a Medical Appointment.</h1>
                             <p>It’s Simple and Free!</p>
-                            {/* <p>Now you can make anappointment with your Doctor</p>
-                <p>anywhere and anything via online booking whick make it easir</p>
-                <p>More &gt; </p> */}
+                           
                             <img src={banner} alt="Logo" className="banner" />
                         </div>
                         <div className="banner-search">
                             <Search />
                         </div>
-                    </article>
+                    </article> */}
+                    <div className="banner-design" style={{ marginLeft: "124px" }}>
+                        <div className="banner-header" >
+                            <div>
+                                <div style={{ marginLeft: "88px" }}>
+                                    <h1>Book a Medical Appointment.</h1>
+                                    <p>It’s Simple and Free!</p>
+                                </div>
+                                <Search />
+                            </div>
+                        </div>
+                        <div className="banner-search" style={{ marginTop: "-53px", marginLeft: "26px" }}>
+                            <img src={banner} alt="Logo" className="" style={{ width: "70%" }} />
+                        </div>
+
+                    </div>
                 </section>
                 <Specialitites />
                 <Three />
@@ -72,31 +85,31 @@ const Home = () => {
                 <div>
                     <Row>
                         <Col className="doctorscol">Bangalore
-                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                            <p className="arrowicon"> <img src={downarrow} /></p>
                         </Col>
                         <Col className="doctorscol">Delhi
-                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                            <p className="arrowicon"> <img src={downarrow} /></p>
                         </Col>
                         <Col className="doctorscol">Mumbai
-                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                            <p className="arrowicon"> <img src={downarrow} /></p>
                         </Col>
                         <Col className="doctorscol">Chennai
-                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                            <p className="arrowicon"> <img src={downarrow} /></p>
                         </Col>
                         <Col className="doctorscol">Hyderabad
-                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                            <p className="arrowicon"> <img src={downarrow} /></p>
                         </Col>
-                        <Col className="doctorscol">Kolkata 
-                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                        <Col className="doctorscol">Kolkata
+                            <p className="arrowicon"> <img src={downarrow} /></p>
                         </Col>
                         <Col className="doctorscol">Ahmedabad
-                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                            <p className="arrowicon"> <img src={downarrow} /></p>
                         </Col>
-                        <Col className="doctorscol">Pune 
-                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                        <Col className="doctorscol">Pune
+                            <p className="arrowicon"> <img src={downarrow} /></p>
                         </Col>
                         <Col className="doctorscol">Gujrat
-                            <p className="arrowicon"> <img  src={downarrow}/></p>
+                            <p className="arrowicon"> <img src={downarrow} /></p>
                         </Col>
                     </Row>
                 </div>
@@ -109,8 +122,8 @@ const Home = () => {
                         <div className="underLineDiv"></div>
                     </div>
                     <div style={{ marginLeft: "72rem" }}>
-                        <button className="leftbtn"><img src={rightarrow} style={{height:25}}/></button>
-                        <button className="leftbtn"><img src={leftarrow} style={{height:25}}/></button>
+                        <button className="leftbtn"><img src={rightarrow} style={{ height: 25 }} /></button>
+                        <button className="leftbtn"><img src={leftarrow} style={{ height: 25 }} /></button>
                     </div>
                     <div className="row">
                         <Card style={{ width: '18rem', margin: 20 }}>
