@@ -55,11 +55,12 @@ export default class Specialitites extends Component {
         <div className="section-header text-center titleDiv">
           <div>Clinics and Specialities</div>
 
-          <div style={{ marginLeft: "72rem" }}>
-                        <button className="leftbtn"><img src={rightarrow} style={{height:25}}/></button>
-                        <button className="leftbtn"><img src={leftarrow} style={{height:25}}/></button>
-                    </div>
+
           <div className="underLineDiv"></div>
+          <div style={{ marginLeft: "60rem", display: "flex" }}>
+            <button className="leftbtn"><img src={rightarrow} style={{ height: 25 }} /></button>
+            <button className="leftbtn"><img src={leftarrow} style={{ height: 25 }} /></button>
+          </div>
         </div>
         <Slider {...settings}>
 

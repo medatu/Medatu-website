@@ -2,7 +2,7 @@
   background: #fdfdfd url(../../../assets/img/search.png) no-repeat 10px center;
   background-repeat: no-repeat;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 10px;
   background-color: #fff;
   /* border: 1px solid #ccc; */
   border-radius: 0.3rem;
@@ -11,7 +11,8 @@
   outline: none;
   padding: 10px 2px 10px 40px;
   transition: all 200ms ease;
-  width: 24rem;
+  width: 16rem;
+  border: 1px solid white;
 }
 .titleDiv {
   display: flex;
@@ -36,7 +37,7 @@
   background: #fdfdfd url(../../../assets/img/location.png) no-repeat 10px
     center;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 10px;
   background-color: #fdfdfd;
   /* border: 1px solid #ccc; */
   border-radius: 0.3rem;
@@ -45,7 +46,9 @@
   outline: none;
   padding: 10px 52px 10px 40px;
   transition: all 200ms ease;
-  width: 24rem;
+  width: 16rem;
+  margin-left: 96px;
+  border: 1px solid white;
 }
 .underline {
   height: 8px !important;
@@ -63,10 +66,11 @@
   margin-top: -148px;
 }
 .leftbtn {
-  width: 28px;
+  width: 42px;
   height: 51px;
   background-color: #fff;
   margin: 10px;
+  border: 0px;
 }
 .doctorscol {
   color: blue;

@@ -16,11 +16,12 @@
   -webkit-overflow-scrolling: touch;
 }
 
-.searchbutton{
+.searchbutton {
   margin-left: -35px;
   z-index: 1;
   border-radius: 26px;
   background-color: #383e95;
   width: 98px;
   color: #ffff;
+  border: 0;
 }
