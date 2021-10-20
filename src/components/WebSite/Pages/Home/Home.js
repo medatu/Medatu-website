@@ -52,6 +52,7 @@ const Home = () => {
                 </div>
 
                 <DocHome />
+
                 <Container>
                     <article id='f-box' className='text-center' style={{ display: "none" }}>
 
@@ -103,11 +104,6 @@ const Home = () => {
 
 
                 <Container>
-                    {/* <article id='f-box' className='text-center'>
-                        <h3 style={{ paddingTop: '2rem' }}>What People Say about Us</h3>
-
-      
-                    </article> */}
                     <div className="section-header text-center titleDiv">
                         <div>What People Say about Us</div>
                         <div className="underLineDiv"></div>
@@ -167,7 +163,6 @@ const Home = () => {
 
                             </Card.Body>
                         </Card>
-
                         <Card style={{ width: '18rem', margin: 20 }}>
                             {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
                             <Card.Body>
@@ -220,9 +215,8 @@ const Home = () => {
                         </Card>
                         <p style={{ marginLeft: "55rem", color: "blue" }}>View All -&gt; </p>
                     </div>
-
-
                 </Container>
+
                 <Blog />
             </main>
         </>
