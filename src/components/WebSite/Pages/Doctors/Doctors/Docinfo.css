@@ -9,6 +9,7 @@
   flex-direction: column;
   width: 20vw;
   height: auto;
+  background-color: #fff;
 }
 .profile-widget:hover {
   border: none;

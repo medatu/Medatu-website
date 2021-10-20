@@ -61,21 +61,6 @@ const Home = () => {
                 </Container>
 
                 <div className="section-header text-center titleDiv">
-                    <div>Top Health Care Professionals to Solve Your Health Issues.</div>
-                    <div className="underLineDiv"></div>
-                </div>
-
-                <DocHome />
-
-                <Container>
-
-
-                </Container>
-                {/* <article id='f-box' className='text-center'>
-                    <h3 style={{ paddingTop: '2rem' }}>Find Doctors and dentist by city</h3>
-
-                </article> */}
-                <div className="section-header text-center titleDiv">
                     <div>Find Doctors and dentist by city</div>
                     <div className="underLineDiv"></div>
                 </div>
